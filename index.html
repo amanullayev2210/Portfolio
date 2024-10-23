@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-photo/modern-favicon-developer-portfolio-website-generative-ai_804788-172689.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Mening Portfolioim</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Men Haqimda</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><a href="#programming">Dasturlash</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>   
+    
+
+    <section id="about">
+        <h2>Men Haqimda</h2>
+        <p>Salom! Mening ismim Anvar men HTML, CSS va JavaScript bo'yicha tajribaga ega veb-dasturchiman. Portfolioimga xush kelibsiz!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Loyihalar</h2>
+        <div class="project">
+            <h3>Weather App</h3>
+            <img src="https://uizard.io/static/89cb1d30cdee9c19b0ce72efe004ff49/a8e47/f5e31989f816c5b15c47cd54b0eb0b30b210b6f0-1440x835.png" width="350px" alt="">
+            <p>HTML, CSS va JavaScript yordamida yaratilgan. Foydalanuvchi o'z shahrini kiritib, real vaqt ob-havo ma'lumotlarini olish imkoniyatiga ega. JavaScript ob-havo xizmatlaridan ma'lumotlarni olib, foydalanuvchiga taqdim etadi.
+
+        </p>
+        </div>
+        <div class="project">
+            <h3>Pac-Man O'yini</h3>
+            <img src="https://i.guim.co.uk/img/media/8152f8ea7f06fd8ef5c68a3a594e6ac35dfd774b/0_342_800_480/master/800.jpg?width=1200&quality=85&auto=format&fit=max&s=493e9743702c9babc482709c2a66c8ab" width="350px" alt="">
+            <p>HTML, CSS va JavaScript yordamida yaratilgan klassik Pac-Man o'yini. Foydalanuvchi Pac-Manni boshqarib, labirint ichida harakatlanadi va dushmanlardan qochib, barcha nuqtalarni yeyishga harakat qiladi.
+        </div>
+        <div class="project">
+            <h3>Tic-Tac-Toe O'yini</h3>
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/2af18186264993.Y3JvcCw4MDgsNjMyLDAsMA.png" width="350px" alt="">
+            <p>HTML, CSS va JavaScript yordamida yaratilgan klassik Tic-Tac-Toe o'yini. Foydalanuvchilar bir yoki ikkita o'yinchi rejimida o'ynashlari mumkin. JavaScript yordamida o'yin mantiqi va g'olibni aniqlash funksiyalari amalga oshirilgan.
+        </div>
+    </section>
+
+    <section id="programming">
+        <h2>Dasturlash</h2>
+        <h3>HTML</h3>
+        <p>HTML (HyperText Markup Language) veb-sahifalarni yaratish uchun standart belgilar tilidir. Bu barcha veb-kontentlarning asosidir.</p>
+        <h3>CSS</h3>
+        <p>CSS (Cascading Style Sheets) HTML bilan yozilgan hujjatni taqdim qilishni tasvirlash uchun ishlatiladigan uslub sahifalari tilidir. CSS elementlarning ekranlarda qanday ko'rsatilishini tasvirlaydi.</p>
+        <h3>JavaScript</h3>
+        <p>JavaScript veb-sahifalarda murakkab funksiyalarni amalga oshirish imkonini beruvchi dasturlash tilidir. Bu til dinamik yangilanadigan kontent yaratish, multimedia boshqarish, rasmlarni animatsiya qilish va boshqa ko'p narsalar uchun ishlatiladi.</p>
+        <h3>Boshqa Texnologiyalar</h3>
+        <p>HTML, CSS va JavaScript bilan bir qatorda, men Python, Node.js kabi boshqa texnologiyalar va ramkalar bilan ham tanishman.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Aloqa</h2>
+        <form id="contact-form">
+            <label for="name">Ism:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Xabar:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Yuborish</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mening Portfolioim</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
